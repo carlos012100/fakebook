@@ -6,7 +6,7 @@ import Home from './screens/Home';
 import Friends from './screens/Friends';
 import Groups from './screens/Groups';
 import Profile from './screens/Profile';
-import Notifications from './screens/Notification';
+import Notifications from './screens/Notifications';
 import Menu from './screens/Menu';
 import { NavigationContainer } from '@react-navigation/native';
 import { createMaterialTopTabNavigator } from '@react-navigation/material-top-tabs';
@@ -20,8 +20,8 @@ const App = () => {
       <StatusBar backgroundColor="#FFFFFF" barStyle="dark-content" />
       
       {/* ScrollView is only for the header */}
-      <ScrollView contentContainerStyle={{ flexGrow: 1 }}>
-        <Header />
+      <ScrollView>
+        <Header/>
       </ScrollView>
 
       <NavigationContainer>
@@ -57,4 +57,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default App

@@ -7,11 +7,11 @@ const View = styled.View`
     height: 500px;
 `
 
-const Home = () => {
+const Groups = () => {
     return (
         <View>
             <Text>Groups</Text>
         </View>
     )
 }
-export default Home
+export default Groups

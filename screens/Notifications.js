@@ -7,11 +7,11 @@ const View = styled.View`
     height: 500px;
 `
 
-const Home = () => {
+const Notifications = () => {
     return (
         <View>
             <Text>Notification</Text>
         </View>
     )
 }
-export default Home
+export default Notifications

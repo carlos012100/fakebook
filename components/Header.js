@@ -9,18 +9,18 @@ const Container = styled.View`
   align-items: center;
   flex-direction: row;
   justify-content: space-between;
-`;
+`
 
-const Title = styled.Text`
+const Text = styled.Text`
   color: #3a86e9;
   font-size: 25px;
   font-weight: bold;
   letter-spacing: -0.3px;
-`;
+`
 
 const Row = styled.View`
   flex-direction: row;
-`;
+`
 
 const Button = styled.TouchableOpacity`
   width: 42px;
@@ -30,12 +30,12 @@ const Button = styled.TouchableOpacity`
   background: #EEEEEE;
   align-items: center;
   justify-content: center;
-`;
+`
 
 const Header = () => {
   return (
     <Container>
-      <Title>fakeBook</Title>
+      <Text>fakeBook</Text>
       <Row>
         <Button>
           <MaterialCommunityIcons name="magnify" size={26} color="black" />

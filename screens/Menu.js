@@ -1,17 +1,18 @@
-import React from 'react'
-import { Text } from 'react-native'
-import styled from 'styled-components/native'
+import React from 'react';
+import { Text } from 'react-native';
+import styled from 'styled-components/native';
 
 const View = styled.View`
-    align-items: center;
-    height: 500px;
-`
+  align-items: center;
+  height: 500px;
+`;
 
-const Home = () => {
+const Menu = () => {
     return (
-        <View>
-            <Text>Menu</Text>
-        </View>
-    )
+  <View>
+    <Text>Menu</Text>
+  </View>
+);
 }
-export default Home
+
+export default Menu; // ✅ export default

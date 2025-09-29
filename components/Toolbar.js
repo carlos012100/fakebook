@@ -2,6 +2,8 @@ import React from 'react'
 import styled from 'styled-components/native'
 import {MaterialCommunityIcons} from '@expo/vector-icons'
 import Avatar from './Avatar'
+import Menu from '../screens/Menu';
+
 
 const Container = styled.View`
     width: 100%;
@@ -42,13 +44,13 @@ const ToolBar = () => {
             </Row>
             <Divider/>
             <Row>
-                <Menu >
+                <Menu>
                     <MaterialCommunityIcons name ="video-account" size={20} color="#F44337"/>
                 </Menu>
                 <Separator/>
                 <Menu>
                     <MaterialCommunityIcons name= "video-plus" size={20} colors="#A748EE"/>
-                    <MenuText>Sala</MenuText>
+                    <Menu>Sala</Menu>
                 </Menu>
             </Row>
         </Container>
